@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import Moment from 'react-moment';
+import React from 'react';
 import './App.css';
 
 const getCurrency = (cash) => new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', minimumFractionDigits: 2, }).format(cash)
